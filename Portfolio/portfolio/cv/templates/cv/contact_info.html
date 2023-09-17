@@ -1,0 +1,26 @@
+{% extends "main.html" %}
+
+{% block content %}
+<div class="container">
+
+    <table  >
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Message</th>
+            <th>Sent on</th>
+            {% for record in table %}
+            <tr>
+                <td>{{record.name}}</td>
+                <td>{{record.email}}</td>
+                <td>{{record.message}}</td>
+                <td>{{record.created}}</td>
+                <!-- <img src="{{record.image.url}}" alt=""> -->
+                <td><button><a href="{% url 'see_image' record.id %}">See image</a></button></td>
+            </tr>
+            {% endfor %}
+    </table>
+
+</div>
+
+    {% endblock %}

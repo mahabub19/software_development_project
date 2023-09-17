@@ -1,0 +1,103 @@
+{% extends 'main.html'%}
+{% load static %}
+
+
+{% block content %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-4">
+            <div class="row" id="image">
+                <img src="{% static 'cv/Man_photo.jpg' %}" alt="">
+            </div>
+            <div class="row">
+                <p><b>Md. Mahabub Alam </b></p>
+                <p><b>Phone Number: </b> 01741919086</p>
+                <p><b>Email Address: </b> nishat.man2017@gmail.com</p>
+                <p><b>Location : </b> jashore,khulna,Bangladesh </p>
+
+                
+                <p id="Head"><b>Education</b></p>
+                <p>
+                    <b>Bachelor of Science :    2020-2024</b><br>
+                    Computer Science and Engineering<br>
+                    Jashore University of Science and Technology <br><br>
+
+                    <b>Higher Secondary Certificate :    2019</b>
+                    Rajshahi Division.<br><br>
+
+                    <b>Secondary School Certificate :    2017</b>
+                    Rajshahi Division.<br><br>
+
+                <p>
+            </div>
+        </div>
+        <div class="col-8">
+            <div class="row">
+                <p id="Head" style="margin-top: 200px;"><b>About Me</b></p>
+                <p>I am currently taking Bachelor's degree in Computer Science and
+                    Engineering at Jashore University of Science and Technology. I
+                    research algorithms and programming languages as well as analyze
+                    and solve problems on several platforms. I participate in many
+                    programming intra-university and national programming contests.</p>
+            </div>
+            <div class="row">
+                <p id="Head"><b>Skill</b></p>
+                <p>
+                    <b>Programming languages: </b>C, C++, Java, Python <br>
+                    <b>Soft skill:</b> MS word, MS excel, MS Powerpoint<br>
+                    <b>Works at:</b> Android, HTML, CSS, Javascript , php, SQL<br>
+                    <b>IDE: </b>Codeblocks, VS code, Android Studio, netbean.</p>
+            </div>
+            <div class="row">
+                <p id="Head"><b>Project</b></p>
+                <table>
+                    <tr>
+                        <th>Project</th>
+                        <th>project type</th>
+                        <th>Required</th>
+                    </tr>
+                    <tr>
+                        <td>1.Findservice man
+                        </td>
+                        <td>Website</td>
+                        <td> HTML,CSS,php,Javascript,SQL</td>
+                    </tr>
+                    <tr>
+                        <td>2.Blood Management</td>
+                        <td>Android Application</td>
+                        <td>Java,firebase</td>
+                    </tr>
+                    <tr>
+                        <td>3.Student Helper</td>
+                        <td>Website</td>
+                        <td>Django,html css javascript</td>
+                    </tr>
+
+                </table>
+
+            </div>
+            <div class="row">
+                <p id="Head"><b>Language</b></p>
+                <ul>
+                    <li>English(Fluent)</li>
+                    <li>Bangla(Fluent)</li>
+                </ul>
+            </div>
+            <div class="row">
+                <p id="Head"><b>Acheivement</b></p>
+                <ul>
+                    <li>Codeforces pupil(max Rating 1205).</li>
+                    <li>Codechef 3*</li>
+                    <li>Leetcode 200 questions solved.</li>
+                    <li>Participate ICPC preliminary contest.</li>
+                </ul>
+            </div>
+            
+
+
+        </div>
+    </div>
+</div>
+
+{% endblock%}
